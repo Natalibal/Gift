@@ -1,0 +1,44 @@
+.holidays{
+    margin: 0 auto;
+
+    &__title {
+        font-size: 32px;
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 96px;
+    }
+
+    &__text{
+        font-size: 18px;
+        line-height: 1.3;
+        text-align: center;
+        padding: 23px 0 64px 0;
+    }
+
+    &__items{
+        @include flex(row);
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    h4{
+        font-size: 20px;
+        line-height: 1.2;
+        padding: 24px 0 74px 0;
+        
+    }
+
+    &__p {
+        padding-bottom: 24px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    @media  screen and (max-width:$tablet) {
+        .holidays__items{
+            @include flex(column);
+        }
+    }
+}

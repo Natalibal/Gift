@@ -1,0 +1,25 @@
+.header {
+    background: $white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 47px 0 ;
+    z-index: 2;
+
+    &__wrapper{
+        @include flex(row);
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+
+    &__button {
+        width: 150px;
+        height: 44px;
+        color: $orange;
+        background: #FAFAFA;
+        text-transform: uppercase;
+        color: $orange;
+     }
+    
+}

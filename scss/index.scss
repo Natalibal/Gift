@@ -1,0 +1,15 @@
+@import 'utils/reset';
+@import 'utils/variables';
+@import 'utils/global';
+@import 'utils/mixins';
+@import 'utils/brackpoint';
+
+//components//
+@import 'components/header';
+@import 'components/hero-page';
+@import 'components/nav';
+@import 'components/btn';
+@import 'components/holidays';
+@import 'components/sign-up';
+@import 'components/blogs';
+@import 'components/footer';

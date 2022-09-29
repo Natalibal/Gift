@@ -1,0 +1,36 @@
+.sign-up{
+    @include flex(row);
+    justify-content: space-evenly;
+    gap: 229px;
+    background: $orange;
+
+    &__title{
+        font-size: 32px;
+        line-height:1.4;
+        padding: 80px 0 70px;
+    }
+
+    &__button{
+        @include flex(row);
+        gap: 16px;
+        width: 286px;
+        height: 50px;
+    }
+    
+    &__button1{
+        background: #231F20;
+        color:  $white;   
+    }
+
+    &__button2{
+        border: 1px solid $black;
+        background: $orange;
+    }
+
+    @media  screen and (max-width:$mobile) {
+        .sign-up{
+            @include flex(column);
+        }
+    }
+    
+}

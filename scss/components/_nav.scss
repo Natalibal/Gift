@@ -1,0 +1,5 @@
+.nav {
+    @include flex(row);
+    gap: 30px;
+    list-style-type: none;
+}

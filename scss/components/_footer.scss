@@ -1,0 +1,23 @@
+.footer {
+    margin: 0 auto;
+
+    &__menu{
+        @include flex(row);
+        justify-content: space-evenly;
+        gap: 140px;
+        padding: 115px 0 53px;
+    }
+
+    &__social {
+        @include flex(row);
+        gap: 25px;
+        padding: 55px 0 128px 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &__year {
+        text-align: center;
+        padding-bottom: 35px;
+    }
+}
