@@ -37,8 +37,7 @@ a {
 @media screen and (max-width: 414px) {
   .header__wrapper {
     flex-direction: column;
-    gap: 30px;
-  }
+    gap: 20px;
 }
 
 .header__button {
