@@ -63,7 +63,7 @@ a {
 @media screen and (max-width: 414px) {
   .hero-page__wrapper {
     flex-direction: column;
-    flex-wrap: nowrap;
+  
   }
 }
 
