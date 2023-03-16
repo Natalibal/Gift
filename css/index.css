@@ -39,7 +39,7 @@ a {
     flex-direction: column;
     gap: 20px;
 }
-
+}
 .header__button {
   width: 150px;
   height: 44px;
