@@ -205,10 +205,21 @@ a {
   gap: 229px;
   background: #F7941E;
 }
+@media screen and (max-width: 768px){
+  .sign-up {
+    gap: 170px;}
+}
 .sign-up__title {
   font-size: 32px;
   line-height: 1.4;
   padding: 80px 0 70px;
+}
+
+@media screen and (max-width: 768px){
+   .sign-up__title {
+    font-size: 30px;
+    line-height: 1.1;
+    padding: 80px 20px 69px;} 
 }
 .sign-up__button {
   display: flex;
