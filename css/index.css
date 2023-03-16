@@ -302,6 +302,12 @@ a {
   justify-content: space-around;
   gap: 30px;
 }
+
+@media screen and (max-width: 768px){
+  .blogs__article {
+    gap: 15px;
+  }
+}
 .blogs__article1 {
   width: 570px;
   height: 290px;
@@ -360,6 +366,13 @@ a {
   gap: 140px;
   padding: 115px 0 53px;
 }
+@media screen and (max-width: 768px){
+  .footer__menu {
+    flex-direction: row;
+    gap: 10px;
+    padding: 50px 0 20px;
+  }
+}
 .footer__social {
   display: flex;
   flex-direction: row;
@@ -372,6 +385,12 @@ a {
 .footer__year {
   text-align: center;
   padding-bottom: 35px;
+}
+
+@media screen and (max-width: 768px){
+  .footer__menu {
+    padding: 50px 0 50px 0px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
