@@ -118,6 +118,13 @@ a {
   padding: 23px 166px 35px 166px;
   text-align: justify;
 }
+
+@media screen and (max-width: 768px){
+  .hero-page-four__text {
+   font-size: 17px;
+   line-height: 1.1;
+  }
+}
 .hero-page-four__button {
   width: 200px;
   height: 60px;
