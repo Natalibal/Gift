@@ -352,6 +352,12 @@ a {
   width: 50%;
   height: 370px;
 }
+
+@media screen and (max-width: 414px) {
+  .blogs__black {
+    width: 100%;
+  }
+}
 .blogs__black p {
   font-size: 14px;
   line-height: 1.4;
