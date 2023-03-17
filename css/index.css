@@ -340,6 +340,12 @@ a {
   height: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 414px) {
+.blogs__img1 {
+  width: 100%;
+}
+}
+
 .blogs__black {
   background: #000;
   color: #FFFFFF;
